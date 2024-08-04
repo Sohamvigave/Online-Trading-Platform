@@ -1,10 +1,9 @@
-import React from 'react';
-import Hero from './Hero';
-import Team from './Team';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+import React from "react";
 
-function AboutPage() {
+import Hero from "./Hero";
+import Team from "./Team";
+
+function PricingPage() {
     return (
         <>
             <Hero />
@@ -13,4 +12,4 @@ function AboutPage() {
     );
 }
 
-export default AboutPage;
+export default PricingPage;
