@@ -1,16 +1,33 @@
+// import React from "react";
+// import Pricing from "./Pricing";
+// import Brokerage from "./Brokerage";
+// import Navbar from "../Navbar";
+// import Footer from "../Footer";
+
+// function PricingPage() {
+//     return (
+//         <>
+//             <Pricing />
+//             <Brokerage />
+//         </>
+//     );
+// }
+
+// export default PricingPage;
+
 import React from "react";
-import Pricing from "./Pricing";
+import Hero from "./Hero";
 import Brokerage from "./Brokerage";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import OpenAccount from "../OpenAccount";
 
 function PricingPage() {
-    return (
-        <>
-            <Pricing />
-            <Brokerage />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <OpenAccount />
+      <Brokerage />
+    </>
+  );
 }
 
 export default PricingPage;
